@@ -1,12 +1,32 @@
-*{
-    min-width: 372px;
-}
 
-.wrapper{
-    min-height: 100vh;
-}
-
-
-main{
+.section{
+    display: flex;
     flex-wrap: wrap;
+    height: 100vh;
+    margin-top: 0;
+}
+
+.lateral{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width:20%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.painel{
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    height: 100vh;
+    padding: 30px;
+}
+header{
+    background-color: black;
+}
+
+.grafico{
+   width: 50%;
+   margin-top: 30px;
 }
